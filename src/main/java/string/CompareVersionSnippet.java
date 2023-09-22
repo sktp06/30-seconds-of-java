@@ -31,7 +31,7 @@ public class CompareVersionSnippet {
   private CompareVersionSnippet() {
   }
 
-  private static final String EXTRACT_VERSION_REGEX = ".*?((?<!\\w)\\d+([.-]\\d+)*).*";
+  private static final String EXTRACT_VERSION_REGEX = ".*?((?<!\\w)\\d+([.-]\\d+)*+).*";
 
   /**
    * Compares two version strings.
