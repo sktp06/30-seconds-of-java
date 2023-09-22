@@ -28,6 +28,8 @@ package math;
  * PrimeNumberSnippet.
  */
 public class PrimeNumberSnippet {
+  private PrimeNumberSnippet() {
+  }
 
   /**
    * Checks if given number is a prime number. Prime number is a number that is greater than 1 and

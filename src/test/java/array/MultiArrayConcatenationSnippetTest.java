@@ -40,14 +40,18 @@ class MultiArrayConcatenationSnippetTest {
   @Test
   void testnArrayConcat() {
     var single = MultiArrayConcatenationSnippet.multiArrayConcat(new Integer[1]);
-    assertEquals(single.length, 1);
-    var multiple
-            = MultiArrayConcatenationSnippet.multiArrayConcat(new String[5],
-                                                              new String[12],
-                                                              new String[3],
-                                                              new String[8]);
-    assertEquals(multiple.length, 28);
+    assertEquals(1, single.length);
+
+    var multiple = MultiArrayConcatenationSnippet.multiArrayConcat(
+            new String[5],
+            new String[12],
+            new String[3],
+            new String[8]
+    );
+    assertEquals(28, multiple.length);
+
     assertThrows(NullPointerException.class, () -> MultiArrayConcatenationSnippet
             .multiArrayConcat(null, null, null, null));
   }
+
 }

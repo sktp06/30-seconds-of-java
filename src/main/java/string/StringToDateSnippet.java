@@ -32,6 +32,8 @@ import java.util.Date;
  * StringToDateSnippet.
  */
 public class StringToDateSnippet {
+  private StringToDateSnippet() {
+  }
 
   /**
    * Convert string to date.

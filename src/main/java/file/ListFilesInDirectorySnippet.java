@@ -30,6 +30,8 @@ import java.io.File;
  * ListFilesInDirectorySnippet.
  */
 public class ListFilesInDirectorySnippet {
+  private ListFilesInDirectorySnippet() {
+  }
 
   /**
    * List files in directory.

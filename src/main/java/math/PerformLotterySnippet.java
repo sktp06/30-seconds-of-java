@@ -31,6 +31,8 @@ import java.util.Collections;
  * PerformLotterySnippet.
  */
 public class PerformLotterySnippet {
+  private PerformLotterySnippet() {
+  }
 
   /**
    * Generate random lottery numbers.

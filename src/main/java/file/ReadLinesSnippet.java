@@ -33,6 +33,8 @@ import java.util.List;
  * ReadLinesSnippet.
  */
 public class ReadLinesSnippet {
+  private ReadLinesSnippet() {
+  }
 
   /**
    * Read file as list of strings.

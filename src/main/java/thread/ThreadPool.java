@@ -31,6 +31,8 @@ import java.util.concurrent.Executors;
  * ThreadPool.
  */
 public class ThreadPool {
+  private ThreadPool() {
+  }
 
   /**
    * <p>Creates pool of threads. Where the pool is the size of the number of processors

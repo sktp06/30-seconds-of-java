@@ -29,6 +29,9 @@ package algorithm;
  */
 
 public class SieveOfEratosthenesSnippet {
+  private SieveOfEratosthenesSnippet() {
+  }
+
   /**
    * Search an item with binarySearch algorithm.
    *
@@ -42,7 +45,7 @@ public class SieveOfEratosthenesSnippet {
     }
 
     for (int i = 2; i * i <= n; i++) {
-      if (isPrime[i] == true) {
+      if (isPrime[i]) {
         for (int j = i * i; j <= n; j += i) {
           isPrime[j] = false;
         }

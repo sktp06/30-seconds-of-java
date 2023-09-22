@@ -34,6 +34,8 @@ import java.util.stream.Collectors;
  * InputStreamToStringSnippet.
  */
 public class InputStreamToStringSnippet {
+  private InputStreamToStringSnippet() {
+  }
 
   /**
    * Convert InputStream to String.
